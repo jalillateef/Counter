@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card-container{
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 50px;
+}
+
+.btn{
+    margin: 20px;
+    background: navy;
+    padding: 14px;
+    cursor: pointer;
+    color:yellow;
+    border-radius: 4px;
+    box-shadow: 10px 10px 8px #888888;
+    border-style: none;
+}
+
+.title, #counter{
+    color: white;
+    font-size: 4rem;
+}
+
+
